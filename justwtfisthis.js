@@ -117,10 +117,5 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
-  
-  
-
-  console.log('%c🌸 AGETHA', 'color: #a855f7; font-size: 24px; font-weight: bold;');
-  console.log('%cAdaptive AI Companion', 'color: #9333ea; font-size: 14px;');
-  
+  // it was supposed to be here but oh well its gone now
 });
