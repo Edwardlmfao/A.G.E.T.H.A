@@ -1,9 +1,3 @@
-// ============================================
-// A.G.E.T.H.A Enhanced JavaScript
-// Version: 2.3.7b Enhanced Edition
-// ============================================
-
-// Main initialization
 document.addEventListener('DOMContentLoaded', () => {
   initializeTabs();
   initializeVersionAccordions();
@@ -20,9 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
  
 });
 
-// ============================================
-// TAB NAVIGATION SYSTEM
-// ============================================
 function initializeTabs() {
   const tabButtons = document.querySelectorAll('.tab-btn');
   const tabPanels = document.querySelectorAll('.tab-panel');
@@ -38,7 +29,6 @@ function initializeTabs() {
     
     location.hash = tabName;
     
-    // Reinitialize counters when switching to features tab
     if (tabName === 'features') {
       setTimeout(() => initializeCounters(), 100);
     }
